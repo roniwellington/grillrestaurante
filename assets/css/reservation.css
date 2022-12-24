@@ -1,0 +1,75 @@
+.reservation-form { margin-block-start: -270px;}
+
+.form-text { margin-block-end: 40px;}
+
+.form-text .link {
+    display: inline;
+    color: var(--gold-crayola);
+}
+
+.form-right .headline-1 {margin-block-end: 40px;}
+
+.form-right .contact-label { margin-block-end: 5px;}
+
+.form-right .separator { margin: 20px auto;}
+
+.form-right .body-4 {
+    color: var(--quick-silver);
+    line-height: var(--lineHeight-3);
+}
+
+.form-right .body-4:not(:last-child) { margin-block-end: 25px;}
+
+.form-left,
+.form-right { padding: 40px 20px 30px;}
+
+.input-field[type="date"]{
+    text-transform: uppercase;
+    padding-block-end: 10px;
+}
+
+.input-field[type="date"]::-webkit-calendar-picker-indicator { opacity: 0;}
+
+textarea.input-field {
+    resize: none;
+    height: 140px;
+    padding-block: 20px;
+    line-height: var(--lineHeight-1);
+}
+
+.form-left .btn {
+    max-width: 100%;
+    width: 100%;
+}
+
+.form-right {
+    background-repeat: no-repeat;
+    background-position: top  left;
+}
+
+/*******************
+*#feature***********
+********************/
+
+.features .section-title { margin-block-end: 40px;}
+
+.feature-card { padding: 30px 20px 40px;}
+
+.feature-item:nth-child(2n+1) .feature-card{ background-color: var(--eerie-black-3);}
+
+.feature-item:nth-child(2n) .feature-card { background-color: var(--smoky-black-3);}
+
+.feature-card .card-icon {
+    max-width: max-content;
+    margin-inline: auto;
+    transition: var(--transition-2);
+}
+
+.feature-card:hover .card-icon { transform: scale(-1) rotate(180deg);}
+
+.feature-card .card-title { margin-top: 20px;}
+
+.feature-card .card-texts { 
+    color: var(--quick-silver);
+    line-height: var(--lineHeight-6);
+}
