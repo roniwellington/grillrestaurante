@@ -492,3 +492,17 @@ body.nav-active {
 }
 
 .w-100 { width: 100%;}
+
+.move-anim { animation: move 5s linear infinite;}
+
+@keyframes move {
+    0%,
+    100% { transform: translateY(0);}
+    50% { transform: translateY(30px);} 
+}
+
+.has-bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
