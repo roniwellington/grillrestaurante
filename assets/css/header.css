@@ -1,3 +1,7 @@
+.topbar {
+    display: none;
+}
+
 .header .btn {
     display: none;
 }
